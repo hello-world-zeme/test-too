@@ -1,0 +1,68 @@
+[data-animation=title] [class^=word] {
+    line-height: inherit;
+  }
+  
+  [data-animation=title] [class^=char] {
+    will-change: transform;
+    line-height: inherit;
+  }
+  
+  .residences-page .residences-page__img {
+    margin-right: 0;
+  }
+  
+  .residences-page .cover__img .img-inner {
+    width: 100%;
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet {
+    border: 1px solid #6B6967;
+    opacity: 1;
+  }
+  
+  .residence-single-slider .swiper-button-prev,
+  .residence-single-slider .swiper-button-next {
+    background: #ffffff;
+    color: #000000;
+    opacity: .9;
+  }
+  
+  .menu .menu__button .span {
+    width: 24px;
+  }
+  
+  .menu-opened .menu__button .span {
+    transform: rotate(45deg);
+    background-color: #ffffff;
+  }
+  
+  .menu .menu__button .span:before {
+    transform: scaleX(1) translateY(0) rotate(90deg);
+    width: 24px;
+  }
+  
+  .menu-opened .menu__button .span:before {
+    transform: scaleX(1) rotate(-90deg);
+  }
+  
+  .menu .menu__button .span:after {
+    display: none;
+  }
+  
+  .contact__button .button {
+    min-width: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+  .form__bot .input-block_checkbox {
+    margin: 0;
+  }
+  
+  .ui-dialog {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  
