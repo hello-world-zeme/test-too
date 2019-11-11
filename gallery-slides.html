@@ -1502,8 +1502,16 @@
   <script type="text/javascript" src="js/slides.js"></script>
   
   <script>
-      location.reload(true);
-      </script>
+      $(document).ready(function(){    
+          //Check if the current URL contains '# or hash'
+          if(document.URL.indexOf("#")==-1){
+              // Set the URL to whatever it was plus "#loaded".
+              url = document.URL+"#loaded";
+              location = "#loaded";
+              //Reload the page using reload() method
+              location.reload(true);
+          }
+      });      </script>
 
 </body>
 
